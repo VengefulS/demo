@@ -1,0 +1,27 @@
+
+spring:
+ 
+  jpa:
+   properties:
+     hibernate:
+       hbm2ddl:
+         auto: update
+         dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+  datasource:
+    url: jdbc:mysql://127.0.0.1/webtest?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  
+  thymeleaf:
+   cache: false
+
+
+
+    
+
+    
+
+ 
+
